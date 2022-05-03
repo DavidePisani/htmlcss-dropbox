@@ -30,6 +30,26 @@ a{
     background-color: #0061ff;
 }
 
+.white{
+    background-color: white;
+}
+
+.btn-small{
+    background-color: #0061ff;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    
+}
+
+.btn-large{
+    text-align: center;
+    color: white;    
+    padding: 10px;
+}
+
+
 /* HEADER */
 
 .head{
@@ -66,15 +86,12 @@ a{
     justify-content: space-around
 }
 
-.btn-small{
-    background-color: #0061ff;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    width: 80px;
-    height: 35px;
+.right .btn-small{
+    width: 70px;
+    height: 30px;
     margin-left: 20px;
 }
+
 
 /* MAIN */
 
@@ -108,13 +125,6 @@ h1{
 
 }
 
-.btn-large{
-    text-align: center;
-    color: white;
-    width: 220px;
-    height: 35px;
-    padding: 10px;
-}
 
 .delete{
     margin-top: 20px;
@@ -173,17 +183,18 @@ h1{
 .card{
     margin-top: 15px;
     width: calc(100% / 3 - 20px);
-    border: 1px solid black;
+    border: 1px solid gray;
 }
 
 .user{
     padding: 10px;
     text-align: center;
-    border-bottom: 1px solid black ;   
+    border-bottom: 1px solid gray ;   
 }
 
 .user i{
-   padding-left: 5px;
+    
+    padding-right: 5px;
 }
 
 .info-card{
@@ -249,5 +260,59 @@ h1{
     padding-right: 5px;
 }
 
+.card-large{
+    margin-top: 25px;
+    width: 100%;
+    border: 1px solid grey
+}
+
+.info-card p{
+    margin-top: 30px;
+}
+
+.info{
+    width: 80%;
+}
+
+.info-card .btn-large{
+    height: 40px;
+}
+
 /*  fine piano tariffario */
+
+/* inizio partner */
+
+.partner{
+    width: 80%;
+    margin-top: 200px;
+    justify-content: center;
+}
+
+.img-partner{
+    width: 150%
+}
+
+.info-partner{
+    padding: 50px;   
+} 
+
+.info-partner h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.info-partner p{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.info-partner .btn-large{
+    border: 1px solid black;
+    width: 150px;
+    height: 40px;
+}
+
+.info-partner a{
+    color: black;
+}
 
