@@ -26,7 +26,6 @@ a{
     text-decoration: none;
     color: inherit;
 }
-
 .blue{
     background-color: #0061ff;
 }
@@ -110,8 +109,7 @@ h1{
 }
 
 .btn-large{
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     color: white;
     width: 220px;
     height: 35px;
@@ -139,7 +137,7 @@ h1{
 
 /* MAIN */
 
-
+/* piano tariffario */
 .plane{
     width: 80%;
     margin: auto;
@@ -149,15 +147,16 @@ h1{
 .plane h2{
     margin-top: 400px;
     font-size: 50px;
+    margin-bottom: 40px;
 }
 
 .round{
     margin-left: 10px;
     display: inline-block;
-    border-radius: 30%;
-    width: 10px;
-    height: 10px;
-    border: 1px solid balck;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
 }
 
 .check{
@@ -165,4 +164,90 @@ h1{
     height: 20px;
     width: 20px;
 }
+
+
+.col-cards{
+    justify-content:space-between ;
+}
+
+.card{
+    margin-top: 15px;
+    width: calc(100% / 3 - 20px);
+    border: 1px solid black;
+}
+
+.user{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid black ;   
+}
+
+.user i{
+   padding-left: 5px;
+}
+
+.info-card{
+    margin: 35px 25px;    
+}
+
+.info-card h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.month{
+    color: grey;
+    margin-bottom: 60px;    
+}
+
+.icons{
+    margin-bottom: 30px;    
+}
+
+.icons div{
+    padding-bottom: 10px;  
+}
+
+.icons i{
+    padding: 5px;
+}
+
+.info-card .btn-large{
+    margin-bottom: 25px; 
+
+}
+
+.buy-now a{
+    color: #0161ff;
+    text-decoration: underline;
+}
+
+.info-card hr{
+    margin-top: 30px;
+    width: 50px;
+}
+
+.content-card h4{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.content-card li{
+    display: flex;
+    padding: 10px;
+}
+
+.content-card i{
+    color: #0061ff;
+    padding-right: 5px;
+}
+
+/*  fine piano tariffario */
 
