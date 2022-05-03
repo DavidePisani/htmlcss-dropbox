@@ -27,6 +27,10 @@ a{
     color: inherit;
 }
 
+.blue{
+    background-color: #0061ff;
+}
+
 /* HEADER */
 
 .head{
@@ -72,3 +76,93 @@ a{
     height: 35px;
     margin-left: 20px;
 }
+
+/* MAIN */
+
+
+/* jumbotron */
+
+.jumbotron{
+    width: 100%;
+    background-color: #b4d0e7;
+}
+
+h1{
+    width: 80%;
+    font-size: 80px;
+    padding: 60px 60px 48px 60px;
+    margin-left: 70px;
+        
+}
+
+.jumbo{
+    justify-content: space-between;
+    
+}
+
+.description{
+    width: 40%;
+    padding: 0px 0px 0px 130px;    
+}
+.description p{
+    padding-bottom: 30px;
+
+}
+
+.btn-large{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 220px;
+    height: 35px;
+    padding: 10px;
+}
+
+.delete{
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+#arrow{
+    padding-top: 30px;
+    font-weight: 800px;
+    font-size: 60px;
+}
+
+.description-img{
+    position: relative;
+    top: 100px;
+    width: 70%;
+}
+
+/* fine jumbotron */
+
+/* MAIN */
+
+
+.plane{
+    width: 80%;
+    margin: auto;
+
+}
+
+.plane h2{
+    margin-top: 400px;
+    font-size: 50px;
+}
+
+.round{
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 30%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid balck;
+}
+
+.check{
+    border: 5px solid #0061ff;
+    height: 20px;
+    width: 20px;
+}
+
