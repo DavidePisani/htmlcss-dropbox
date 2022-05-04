@@ -469,6 +469,7 @@ h1{
  /* <!-- INIZIO TRIAL --> */
 .trial{
     width: 100%;
+    margin: auto;
     height: 300px;
     background-color: #b4d0e7 ;
     justify-content: space-around;
@@ -491,10 +492,46 @@ h1{
 
 .requests{
     width: 80%;
+    margin: auto;
+}
+
+.list-faq{
+    padding: 100px 0;    
+}
+
+.list-faq h2{
+    font-size: 35px;
+    margin-bottom: 30px;    
 }
 
 .faq{
-    padding: 200px 250px
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #dcdcde;
 }
+
+.faq:last-child{
+    border-bottom: 1px solid #dcdcde;    
+}
+
+.faq h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* FINE DOMANDE FREQUENTI */
+
+/* FINE MAIN */
+
+
+
+
+
+
+
+
+
+
+
 
 
