@@ -223,11 +223,11 @@ h1{
 }
 
 .icons div{
-    padding-bottom: 10px;  
+    padding-bottom: 10px;
 }
 
 .icons i{
-    padding: 5px;
+    padding: 3px 5px 0px 0;   
 }
 
 .info-card .btn-large{
@@ -315,4 +315,29 @@ h1{
 .info-partner a{
     color: black;
 }
+
+/* fine partner */
+
+/* inizio Dropbox Business */
+
+
+.culo{
+    
+    justify-content:space-between ;
+    flex-wrap: wrap;
+}
+
+.img-operator{
+
+}
+
+.description-business{
+    width: 100%;
+}
+
+.operation{
+    width: calc( 100% / 3 );
+}
+   
+
 
