@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    margin-top: 70px;
 }
 
 .flex-container{
@@ -57,6 +58,8 @@ a{
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    top: 0;
+    left: 0;
     z-index: 15;  
 }
 
@@ -106,20 +109,21 @@ a{
 
 h1{
     width: 80%;
+    margin: auto;
     font-size: 80px;
-    padding: 60px 60px 48px 60px;
-    margin-left: 70px;        
+    padding-top: 100px;       
 }
 
 .jumbo{
     justify-content: space-between;
     position: relative;
-    top: 100px;    
+    top: 90px;
+    width: 80%;
+    margin: auto;   
 }
 
 .description{
-    width: 40%;
-    padding: 0px 0px 0px 130px;    
+    width: 40%;   
 }
 .description p{
     padding-bottom: 30px;
@@ -140,8 +144,7 @@ h1{
 
 .description-img{
     position: relative;
-    right: 70px;
-    width: 50%;
+    width: 80%;
 }
 
 /* fine jumbotron */
@@ -413,13 +416,15 @@ h1{
 
 .business-team{
     width: 100%;
-    flex-shrink: 0; 
+    
 }
 
 .square{ 
-    width: 40%; 
+    width: 500px;
+    height: 200px;
     background-color: blue; 
-    flex-wrap: wrap;           
+    flex-wrap: wrap;
+    flex-shrink: 0;            
 }
 
 .small-square{
