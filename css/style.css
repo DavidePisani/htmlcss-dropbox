@@ -39,8 +39,7 @@ a{
     justify-content: center;
     align-items: center;
     color: white;
-    padding: 10px;
-    
+    padding: 10px;   
 }
 
 .btn-large{
@@ -49,14 +48,16 @@ a{
     padding: 10px;
 }
 
-
 /* HEADER */
 
 .head{
+    background-color: white;
     width: 100%;
     height: 70px;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;
+    position: fixed;
+    z-index: 15;  
 }
 
 .left{
@@ -107,17 +108,14 @@ h1{
     width: 80%;
     font-size: 80px;
     padding: 60px 60px 48px 60px;
-    margin-left: 70px;
-        
+    margin-left: 70px;        
 }
 
 .jumbo{
     justify-content: space-between;
     position: relative;
-    top: 100px;
-    
+    top: 100px;    
 }
-
 
 .description{
     width: 40%;
@@ -178,7 +176,6 @@ h1{
     width: 20px;
 }
 
-
 .col-cards{
     justify-content:space-between ;
 }
@@ -215,7 +212,6 @@ h1{
     margin-bottom: 10px;
 }
 
-
 .month{
     color: grey;
     margin-bottom: 60px;    
@@ -235,7 +231,6 @@ h1{
 
 .info-card .btn-large{
     margin-bottom: 25px; 
-
 }
 
 .buy-now a{
@@ -293,8 +288,7 @@ h1{
 
 .img-partner{
     width: 150%;
-    margin-top: 100px;
-    
+    margin-top: 100px;    
 }
 
 .info-partner{
@@ -366,11 +360,11 @@ h1{
     margin-top: 100px;
     margin-bottom: 50px;
 }
+
 .team h2{
     margin: auto;
     font-size: 40px;
     margin-bottom: 10px;
-
 }
 
 .team a{
@@ -419,12 +413,13 @@ h1{
 
 .business-team{
     width: 100%;
+    flex-shrink: 0; 
 }
 
 .square{ 
     width: 40%; 
     background-color: blue; 
-    flex-wrap: wrap;         
+    flex-wrap: wrap;           
 }
 
 .small-square{
@@ -436,14 +431,14 @@ h1{
 
 .small-square img{
     width: 80%;
-    -webkit-filter: invert(100%);
+    filter: invert(1);
 }
 
 .contenuto{
     width: 60%;
     height: 500px;
     background-color: whitesmoke;
-    
+    flex-grow: 1;    
 }
 
 .member{
@@ -461,8 +456,6 @@ h1{
     font-size: 25px;
 }
 
-
-
 .member img{
     width: 30%;
 }
@@ -476,8 +469,7 @@ h1{
     height: 300px;
     background-color: #b4d0e7 ;
     justify-content: space-around;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .trial h2{
@@ -533,19 +525,15 @@ footer{
     color: white;    
 }
 
-
 .feet{
     justify-content: space-around;
     padding: 100px;
 }
 
-
-
 .feet-info h3{
     margin-bottom: 10px;
     font-size: 24px;
 }
-
 
 .feet-info li{
     margin-bottom: 5px;
@@ -566,17 +554,4 @@ footer{
     padding: 40px 0;
     color: #666666;    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* FINE FOOTER */
